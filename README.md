@@ -1,5 +1,5 @@
 
-# Job Cloud Server
+# ImagesAPI
 
 Quick and easy API to push images to S3 that supports resizing and keeping copies of original images and all done in-memory. If only 
 
