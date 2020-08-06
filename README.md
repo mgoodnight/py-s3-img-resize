@@ -1,7 +1,9 @@
 
 # ImagesAPI
 
-Quick and easy API to push images to S3 that supports resizing and keeping copies of original images and all done in-memory. 
+Quick and easy API to push images to S3 that supports resizing and keeping copies of original images while all done in-memory
+
+Good solution for your dev environments that needs to pump image assets to S3.
 
 ## Usage
 `pip install -r requirements.txt`
@@ -14,7 +16,7 @@ Quick and easy API to push images to S3 that supports resizing and keeping copie
 
 `python app.py`
 
-## Query params (all optional)
+## Query params
 
 `width`
 Resize width. If no height query param is provided in conjunction, will scale based on aspect ratio.
