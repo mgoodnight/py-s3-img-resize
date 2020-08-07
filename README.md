@@ -6,6 +6,8 @@ Quick and easy API to push images to S3 that supports resizing and keeping copie
 Good solution for your dev environments that needs to pump image assets to S3.
 
 ## Usage
+ Set your bucket and region in `config.py`
+
 `pip install -r requirements.txt`
 
 `export AWS_ACCESS_KEY_ID=<YOUR_ACCESS_KEY_ID>`
