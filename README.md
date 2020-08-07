@@ -21,10 +21,10 @@ Good solution for your dev environments that needs to pump image assets to S3.
 ## Query params
 
 `width`
-Resize width. If no height query param is provided in conjunction, will scale based on aspect ratio.
+Resize width. If no height query param is provided with the width param, will scale based on aspect ratio.
 
 `height`
-Resize height. If no width query param is provided in conjunction, will scale based on aspect ratio.
+Resize height. If no width query param is provided with the height param, will scale based on aspect ratio.
 
 `append`
 Append dimensions to image(s). Example: `foobar-100x100.jpg`
