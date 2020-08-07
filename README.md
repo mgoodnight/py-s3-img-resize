@@ -40,7 +40,7 @@ If resizing (providing a width or a height query param), will create copy in S3 
 
 `curl -X POST -F file=@'/path/of/file/foobar.jpg' http://localhost:5001/image?height=100&width=100`
 
-### Append dimensions to image and upload to S3
+### Append dimensions to image object key and upload to S3
 
 `curl -X POST -F file=@'/path/of/file/foobar.jpg' http://localhost:5001/image?append=1`
 
